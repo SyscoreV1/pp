@@ -1,6 +1,6 @@
 @echo off
 :a
-START 1.bat
+START /realtime 1.bat
 
 
 color 6
